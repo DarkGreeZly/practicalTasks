@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:300i,wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style1.css">
+	<title>Pz1_6</title>
+</head>
+<body>
+	<div class="wrapper">
+	<header class="header">
+			<div class="container">
+				<div class="headerinner">
+					<div class="headerlogo">
+						<h1 id="head">
+							My blog
+						</h1>
+						<h2 class="header-name">
+							Borisenko Yaroslav
+						</h2>
+					</div>
+					<nav class="nav">
+						<a href="#" class="navlink">Sing In</a>
+						<a href="#" class="navlink">Log in</a>
+					</nav>
+				</div>
+			</div>
+		</header>		
+	<main>
+		<div class="authorization">
+			<form class="form" action="action_page.php">
+				<div id="container">
+				  <label for="surname"><b>Last name</b></label>
+				  <input type="text" placeholder="Enter last name" name="surname" required>
+					<label for="name"><b>Name</b></label>
+					<input type="text" placeholder="Enter name" name="name" required>
+					<label for="login"><b>Login</b></label>
+					<input type="text" placeholder="Enter login" name="login" required>
+					<label for="study-group"><b>Group</b></label>
+					<select name="study-group" id="study-group">
+						<option value="291"><b>291</b></option>
+						<option value="292"><b>292</b></option>
+						<option value="293"><b>293</b></option>
+					</select>
+				  <label for="psw"><b>Password</b></label>
+				  <input type="password" placeholder="Enter password" name="psw" required>
+					<label for="confpsw"><b>Accepting password</b></label>
+					<input type="password" placeholder="Enter password" name="confpws" required> 
+				  <button type="submit">Sign in</button>
+				  <label>
+					 <input type="checkbox" checked="checked" name="remember"> Remember me
+				  </label>
+				</div>		 
+				<div class="container" style="background-color:#f1f1f1">
+				  <button type="button" class="cancelbtn" ><a class="button-href" href="#">Cancel</a></button>
+				  <span class="psw">Forget 	<a href="#">password?</a></span>
+				</div>
+			</form>
+		</div>
+	</main>		
+	<footer class="footer">
+		<div class="container">
+			<div class="bottom-text">
+				<p>© All rights reserved.</p>
+				<p>Developer: cadet 292 group Borisenko Yaroslav</p>
+			</div>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
